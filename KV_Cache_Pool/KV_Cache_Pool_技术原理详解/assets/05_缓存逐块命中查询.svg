@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370">
+<rect width="900" height="370" fill="#ffffff"/>
+<text x="36" y="49" fill="#22303c" font-size="26" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="start">缓存逐块查询过程</text>
+<rect x="33" y="66" width="834" height="48" rx="4" fill="#F7F9FA" stroke="#DDE4EA" stroke-width="0.7"/>
+<text x="90" y="97" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">H0</text>
+<text x="425" y="97" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">Pool 中存在</text>
+<text x="783" y="97" fill="#0D9488" font-size="23" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">✓</text>
+<rect x="33" y="117" width="834" height="48" rx="4" fill="#ffffff" stroke="#DDE4EA" stroke-width="0.7"/>
+<text x="90" y="148" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">H1</text>
+<text x="425" y="148" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">Pool 中存在</text>
+<text x="783" y="148" fill="#0D9488" font-size="23" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">✓</text>
+<rect x="33" y="168" width="834" height="48" rx="4" fill="#F7F9FA" stroke="#DDE4EA" stroke-width="0.7"/>
+<text x="90" y="199" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">H2</text>
+<text x="425" y="199" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">Pool 中存在</text>
+<text x="783" y="199" fill="#0D9488" font-size="23" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">✓</text>
+<rect x="33" y="219" width="834" height="48" rx="4" fill="#ffffff" stroke="#DDE4EA" stroke-width="0.7"/>
+<text x="90" y="250" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">H3B</text>
+<text x="425" y="250" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">Pool 中不存在</text>
+<text x="783" y="250" fill="#CB5555" font-size="23" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">×</text>
+<text x="36" y="302" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="start">可复用的完整前缀</text>
+<text x="865" y="302" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="end">12 / 16 tokens</text>
+<rect x="36" y="319" width="828" height="18" rx="9" fill="#E2E8F0" stroke="none" stroke-width="1.5"/>
+<rect x="36" y="319" width="621" height="18" rx="9" fill="#0D9488" stroke="none" stroke-width="1.5"/>
+<text x="37" y="359" fill="#64748b" font-size="15" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="start">前缀命中率：75%（忽略额外对齐约束）</text>
+</svg>

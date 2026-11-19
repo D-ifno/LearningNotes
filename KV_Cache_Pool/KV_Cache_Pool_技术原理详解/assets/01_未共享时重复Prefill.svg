@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="360" viewBox="0 0 850 360">
+<rect width="850" height="360" fill="#ffffff"/>
+<rect x="28" y="24" width="375" height="294" rx="16" fill="#F7F9FA" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="215" y="61" fill="#22303c" font-size="24" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">节点 A</text>
+<rect x="64" y="90" width="303" height="66" rx="10" fill="#D9F2EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="215" y="115" fill="#22303c" font-size="18" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">公共前缀</text>
+<text x="215" y="142" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">4000 tokens</text>
+<path d="M215 157 L215 195" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M211.3 189.0 L215 195 L218.7 189.0" stroke="#64748b" stroke-width="2" fill="none"/>
+<rect x="64" y="198" width="303" height="78" rx="10" fill="#FFF1DA" stroke="#D18B22" stroke-width="1.5"/>
+<text x="215" y="229" fill="#22303c" font-size="21" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">Prefill</text>
+<text x="215" y="258" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">重新计算相同前缀</text>
+<rect x="447" y="24" width="375" height="294" rx="16" fill="#F7F9FA" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="634" y="61" fill="#22303c" font-size="24" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">节点 B</text>
+<rect x="483" y="90" width="303" height="66" rx="10" fill="#D9F2EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="634" y="115" fill="#22303c" font-size="18" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">公共前缀</text>
+<text x="634" y="142" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">4000 tokens</text>
+<path d="M634 157 L634 195" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M630.3 189.0 L634 195 L637.7 189.0" stroke="#64748b" stroke-width="2" fill="none"/>
+<rect x="483" y="198" width="303" height="78" rx="10" fill="#FFF1DA" stroke="#D18B22" stroke-width="1.5"/>
+<text x="634" y="229" fill="#22303c" font-size="21" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">Prefill</text>
+<text x="634" y="258" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="middle">重新计算相同前缀</text>
+<path d="M366 239 L484 239" stroke="#d18b22" stroke-width="2" fill="none" stroke-dasharray="7 5"/>
+<rect x="348" y="293" width="154" height="43" rx="9" fill="#FFF1DA" stroke="#D18B22" stroke-width="1.5"/>
+<text x="425" y="321" fill="#b87619" font-size="18" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">重复计算</text>
+</svg>

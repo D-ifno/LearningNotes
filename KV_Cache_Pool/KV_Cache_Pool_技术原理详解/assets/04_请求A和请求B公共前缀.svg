@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="300" viewBox="0 0 1080 300">
+<rect width="1080" height="300" fill="#ffffff"/>
+<text x="20" y="42" fill="#22303c" font-size="18" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="start">请求 A（节点 A）</text>
+<rect x="20" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="48.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T1</text>
+<rect x="85" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="113.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T2</text>
+<rect x="150" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="178.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T3</text>
+<rect x="215" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="243.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T4</text>
+<rect x="280" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="308.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T5</text>
+<rect x="345" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="373.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T6</text>
+<rect x="410" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="438.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T7</text>
+<rect x="475" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="503.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T8</text>
+<rect x="540" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="568.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T9</text>
+<rect x="605" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="633.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T10</text>
+<rect x="670" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="698.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T11</text>
+<rect x="735" y="60" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="763.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T12</text>
+<rect x="800" y="60" width="57" height="52" rx="6" fill="#FFF0DB" stroke="#D18B22" stroke-width="1.5"/>
+<text x="828.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">A1</text>
+<rect x="865" y="60" width="57" height="52" rx="6" fill="#FFF0DB" stroke="#D18B22" stroke-width="1.5"/>
+<text x="893.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">A2</text>
+<rect x="930" y="60" width="57" height="52" rx="6" fill="#FFF0DB" stroke="#D18B22" stroke-width="1.5"/>
+<text x="958.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">A3</text>
+<rect x="995" y="60" width="57" height="52" rx="6" fill="#FFF0DB" stroke="#D18B22" stroke-width="1.5"/>
+<text x="1023.5" y="92" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">A4</text>
+<text x="20" y="181" fill="#22303c" font-size="18" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="start">请求 B（节点 B）</text>
+<rect x="20" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="48.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T1</text>
+<rect x="85" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="113.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T2</text>
+<rect x="150" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="178.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T3</text>
+<rect x="215" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="243.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T4</text>
+<rect x="280" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="308.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T5</text>
+<rect x="345" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="373.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T6</text>
+<rect x="410" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="438.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T7</text>
+<rect x="475" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="503.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T8</text>
+<rect x="540" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="568.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T9</text>
+<rect x="605" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="633.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T10</text>
+<rect x="670" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="698.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T11</text>
+<rect x="735" y="199" width="57" height="52" rx="6" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="763.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">T12</text>
+<rect x="800" y="199" width="57" height="52" rx="6" fill="#EEF1F5" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="828.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">B1</text>
+<rect x="865" y="199" width="57" height="52" rx="6" fill="#EEF1F5" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="893.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">B2</text>
+<rect x="930" y="199" width="57" height="52" rx="6" fill="#EEF1F5" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="958.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">B3</text>
+<rect x="995" y="199" width="57" height="52" rx="6" fill="#EEF1F5" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="1023.5" y="231" fill="#22303c" font-size="17" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="700" text-anchor="middle">B4</text>
+<rect x="26" y="279" width="21" height="12" rx="2" fill="#DCF3EE" stroke="#0D9488" stroke-width="1.5"/>
+<text x="56" y="290" fill="#22303c" font-size="14" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="start">共享前缀：12 tokens</text>
+<rect x="357" y="279" width="21" height="12" rx="2" fill="#FFF0DB" stroke="#D18B22" stroke-width="1.5"/>
+<text x="385" y="290" fill="#22303c" font-size="14" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="start">请求 A 独有内容</text>
+<rect x="668" y="279" width="21" height="12" rx="2" fill="#EEF1F5" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="696" y="290" fill="#22303c" font-size="14" font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif" font-weight="400" text-anchor="start">请求 B 独有内容</text>
+</svg>
