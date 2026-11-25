@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="365" viewBox="0 0 760 365" role="img" aria-label="同样 8 张 NPU 的不同 TP / DP 布局">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">同样 8 张 NPU 的不同 TP / DP 布局</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">外框表示 TP 并行组，每个方块表示一个 NPU</text>
+<text x="24" y="105" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#172b4d" text-anchor="start" font-weight="600">TP8 / DP1</text>
+<rect x="178.0" y="76" width="552.0" height="52" rx="6" fill="#f8fafc" stroke="#2563eb" stroke-width="1"/>
+<rect x="187.0" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="210.0" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">0</text>
+<rect x="256.75" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="279.75" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">1</text>
+<rect x="326.5" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="349.5" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">2</text>
+<rect x="396.25" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="419.25" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">3</text>
+<rect x="466.0" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="489.0" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">4</text>
+<rect x="535.75" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="558.75" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">5</text>
+<rect x="605.5" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="628.5" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">6</text>
+<rect x="675.25" y="86" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="698.25" y="107" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">7</text>
+<text x="24" y="172" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#172b4d" text-anchor="start" font-weight="600">TP4 / DP2</text>
+<rect x="178.0" y="143" width="273.0" height="52" rx="6" fill="#f8fafc" stroke="#2563eb" stroke-width="1"/>
+<rect x="187.0" y="153" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="210.0" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">0</text>
+<rect x="256.75" y="153" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="279.75" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">1</text>
+<rect x="326.5" y="153" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="349.5" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">2</text>
+<rect x="396.25" y="153" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="419.25" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">3</text>
+<rect x="457.0" y="143" width="273.0" height="52" rx="6" fill="#f8fafc" stroke="#0d9488" stroke-width="1"/>
+<rect x="466.0" y="153" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="489.0" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">4</text>
+<rect x="535.75" y="153" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="558.75" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">5</text>
+<rect x="605.5" y="153" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="628.5" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">6</text>
+<rect x="675.25" y="153" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="698.25" y="174" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">7</text>
+<text x="24" y="239" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#172b4d" text-anchor="start" font-weight="600">TP2 / DP4</text>
+<rect x="178.0" y="210" width="133.5" height="52" rx="6" fill="#f8fafc" stroke="#2563eb" stroke-width="1"/>
+<rect x="187.0" y="220" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="210.0" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">0</text>
+<rect x="256.75" y="220" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="279.75" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">1</text>
+<rect x="317.5" y="210" width="133.5" height="52" rx="6" fill="#f8fafc" stroke="#0d9488" stroke-width="1"/>
+<rect x="326.5" y="220" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="349.5" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">2</text>
+<rect x="396.25" y="220" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="419.25" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">3</text>
+<rect x="457.0" y="210" width="133.5" height="52" rx="6" fill="#f8fafc" stroke="#7c3aed" stroke-width="1"/>
+<rect x="466.0" y="220" width="46" height="31" rx="4" fill="#7c3aed" stroke="none" stroke-width="1"/>
+<text x="489.0" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">4</text>
+<rect x="535.75" y="220" width="46" height="31" rx="4" fill="#7c3aed" stroke="none" stroke-width="1"/>
+<text x="558.75" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">5</text>
+<rect x="596.5" y="210" width="133.5" height="52" rx="6" fill="#f8fafc" stroke="#d97706" stroke-width="1"/>
+<rect x="605.5" y="220" width="46" height="31" rx="4" fill="#d97706" stroke="none" stroke-width="1"/>
+<text x="628.5" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">6</text>
+<rect x="675.25" y="220" width="46" height="31" rx="4" fill="#d97706" stroke="none" stroke-width="1"/>
+<text x="698.25" y="241" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">7</text>
+<text x="24" y="306" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#172b4d" text-anchor="start" font-weight="600">TP1 / DP8</text>
+<rect x="178.0" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#2563eb" stroke-width="1"/>
+<rect x="187.0" y="287" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="210.0" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">0</text>
+<rect x="247.75" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#0d9488" stroke-width="1"/>
+<rect x="256.75" y="287" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="279.75" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">1</text>
+<rect x="317.5" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#7c3aed" stroke-width="1"/>
+<rect x="326.5" y="287" width="46" height="31" rx="4" fill="#7c3aed" stroke="none" stroke-width="1"/>
+<text x="349.5" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">2</text>
+<rect x="387.25" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#d97706" stroke-width="1"/>
+<rect x="396.25" y="287" width="46" height="31" rx="4" fill="#d97706" stroke="none" stroke-width="1"/>
+<text x="419.25" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">3</text>
+<rect x="457.0" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#2563eb" stroke-width="1"/>
+<rect x="466.0" y="287" width="46" height="31" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="489.0" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">4</text>
+<rect x="526.75" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#0d9488" stroke-width="1"/>
+<rect x="535.75" y="287" width="46" height="31" rx="4" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="558.75" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">5</text>
+<rect x="596.5" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#7c3aed" stroke-width="1"/>
+<rect x="605.5" y="287" width="46" height="31" rx="4" fill="#7c3aed" stroke="none" stroke-width="1"/>
+<text x="628.5" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">6</text>
+<rect x="666.25" y="277" width="63.75" height="52" rx="6" fill="#f8fafc" stroke="#d97706" stroke-width="1"/>
+<rect x="675.25" y="287" width="46" height="31" rx="4" fill="#d97706" stroke="none" stroke-width="1"/>
+<text x="698.25" y="308" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="600">7</text>
+</svg>

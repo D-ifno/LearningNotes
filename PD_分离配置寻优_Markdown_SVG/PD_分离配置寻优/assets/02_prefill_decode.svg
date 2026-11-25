@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350" role="img" aria-label="Prefill 与 Decode 的典型资源需求">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">Prefill 与 Decode 的典型资源需求</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">一般性计算特征；条形长度仅用于示意，不代表实测值</text>
+<rect x="22" y="72" width="350" height="253" rx="8" fill="#f8fafc" stroke="#dbe4ef" stroke-width="1"/>
+<text x="197" y="98" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="19" fill="#2563eb" text-anchor="middle" font-weight="600">Prefill</text>
+<rect x="84" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="112" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="140" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="168" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="196" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="224" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="252" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="280" y="111" width="23" height="23" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="197" y="153" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#52657c" text-anchor="middle" font-weight="400">并行处理输入 Token</text>
+<rect x="50" y="165" width="294" height="53" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="197.0" y="189" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">大规模矩阵计算</text>
+<text x="197.0" y="209" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">构建 KV Cache</text>
+<text x="42" y="237" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#172b4d" text-anchor="start" font-weight="400">计算能力</text>
+<rect x="117" y="226" width="230" height="11" rx="3" fill="#e2e8f0" stroke="none" stroke-width="1"/>
+<rect x="117" y="226" width="207.0" height="11" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="42" y="266" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#172b4d" text-anchor="start" font-weight="400">显存带宽</text>
+<rect x="117" y="255" width="230" height="11" rx="3" fill="#e2e8f0" stroke="none" stroke-width="1"/>
+<rect x="117" y="255" width="112.7" height="11" rx="3" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="197" y="309" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="600">通常偏计算密集型</text>
+<rect x="388" y="72" width="350" height="253" rx="8" fill="#f8fafc" stroke="#dbe4ef" stroke-width="1"/>
+<text x="563" y="98" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="19" fill="#0d9488" text-anchor="middle" font-weight="600">Decode</text>
+<rect x="450" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="478" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="506" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="534" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="562" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="590" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="618" y="111" width="23" height="23" rx="3" fill="#cbd5e1" stroke="none" stroke-width="1"/>
+<rect x="646" y="111" width="23" height="23" rx="3" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="563" y="153" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#52657c" text-anchor="middle" font-weight="400">逐步生成新 Token</text>
+<rect x="416" y="165" width="294" height="53" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="563.0" y="189" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">反复读取模型权重</text>
+<text x="563.0" y="209" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">访问、追加 KV Cache</text>
+<text x="408" y="237" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#172b4d" text-anchor="start" font-weight="400">计算能力</text>
+<rect x="483" y="226" width="230" height="11" rx="3" fill="#e2e8f0" stroke="none" stroke-width="1"/>
+<rect x="483" y="226" width="82.8" height="11" rx="3" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="408" y="266" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#172b4d" text-anchor="start" font-weight="400">显存带宽</text>
+<rect x="483" y="255" width="230" height="11" rx="3" fill="#e2e8f0" stroke="none" stroke-width="1"/>
+<rect x="483" y="255" width="218.5" height="11" rx="3" fill="#0d9488" stroke="none" stroke-width="1"/>
+<text x="563" y="309" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#0d9488" text-anchor="middle" font-weight="600">通常偏访存密集型</text>
+</svg>

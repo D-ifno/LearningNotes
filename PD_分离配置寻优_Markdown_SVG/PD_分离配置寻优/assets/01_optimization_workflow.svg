@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="570" viewBox="0 0 720 570" role="img" aria-label="PD 分离部署配置寻优流程">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">PD 分离部署配置寻优流程</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">从约束分析到端到端性能验证</text>
+<rect x="120" y="72" width="480" height="53" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.2"/>
+<text x="360.0" y="96" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#64748b" text-anchor="middle" font-weight="600">01  明确环境、模型与业务负载</text>
+<text x="360.0" y="116" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">硬件 · 模型 · ISL / OSL · SLO</text>
+<line x1="360" y1="125" x2="360" y2="139" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="141" width="480" height="53" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.2"/>
+<text x="360.0" y="165" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#64748b" text-anchor="middle" font-weight="600">02  分析资源约束与搜索空间</text>
+<text x="360.0" y="185" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">显存容量 · 并行策略 · 网络拓扑</text>
+<line x1="360" y1="194" x2="360" y2="208" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="210" width="480" height="53" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="360.0" y="234" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">03  P / D 分阶段性能画像</text>
+<text x="360.0" y="254" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">Prefill 吞吐 · Decode 吞吐 · 时延</text>
+<line x1="360" y1="263" x2="360" y2="277" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="279" width="480" height="53" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="360.0" y="303" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">04  确定 P / D 资源配比</text>
+<text x="360.0" y="323" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">卡数分配 · 实例数量 · 并行规模</text>
+<line x1="360" y1="332" x2="360" y2="346" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="348" width="480" height="53" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="360.0" y="372" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">05  两侧运行参数寻优</text>
+<text x="360.0" y="392" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">Batch · KV Cache · MTP · 图模式</text>
+<line x1="360" y1="401" x2="360" y2="415" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="417" width="480" height="53" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="360.0" y="441" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">06  端到端压测与池化调优</text>
+<text x="360.0" y="461" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">KV 传输 · 排队 · SLO 达标率</text>
+<line x1="360" y1="470" x2="360" y2="484" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="120" y="486" width="480" height="53" rx="8" fill="#f8fafc" stroke="#15803d" stroke-width="1.2"/>
+<text x="360.0" y="510" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#15803d" text-anchor="middle" font-weight="600">07  确定最优配置</text>
+<text x="360.0" y="530" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">Goodput · 时延 · 资源利用效率</text>
+</svg>

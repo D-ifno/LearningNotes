@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="348" viewBox="0 0 760 348" role="img" aria-label="PD 分离系统性能瓶颈定位">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">PD 分离系统性能瓶颈定位</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">现象需结合阶段级 Metrics 和 Profiling 进一步确认</text>
+<rect x="235" y="73" width="290" height="53" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="1.2"/>
+<text x="380.0" y="97" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#64748b" text-anchor="middle" font-weight="600">端到端性能不达标</text>
+<text x="380.0" y="117" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">识别阶段级等待与资源瓶颈</text>
+<path d="M380 126V140H134V154" fill="none" stroke="#64748b" stroke-width="1.3" marker-end="url(#a0)"/>
+<rect x="22" y="156" width="224" height="53" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="134.0" y="180" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Prefill 瓶颈</text>
+<text x="134.0" y="200" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">TTFT 升高</text>
+<text x="134" y="228" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#52657c" text-anchor="middle" font-weight="400">P 请求积压</text>
+<line x1="134" y1="236" x2="134" y2="256" stroke="#64748b" stroke-width="1.4" marker-end="url(#a0)"/>
+<rect x="22" y="260" width="224" height="56" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="134.0" y="284" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">提高 P 处理能力</text>
+<text x="134.0" y="304" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">优化计算与并行</text>
+<path d="M380 126V140H380V154" fill="none" stroke="#64748b" stroke-width="1.3" marker-end="url(#a0)"/>
+<rect x="268" y="156" width="224" height="53" rx="8" fill="#f8fafc" stroke="#d97706" stroke-width="1.2"/>
+<text x="380.0" y="180" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">传输瓶颈</text>
+<text x="380.0" y="200" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">KV 等待增加</text>
+<text x="380" y="228" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#52657c" text-anchor="middle" font-weight="400">带宽接近饱和</text>
+<line x1="380" y1="236" x2="380" y2="256" stroke="#64748b" stroke-width="1.4" marker-end="url(#a0)"/>
+<rect x="268" y="260" width="224" height="56" rx="8" fill="#f8fafc" stroke="#d97706" stroke-width="1.2"/>
+<text x="380.0" y="284" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#d97706" text-anchor="middle" font-weight="600">优化传输路径</text>
+<text x="380.0" y="304" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">减少 KV 数据量</text>
+<path d="M380 126V140H626V154" fill="none" stroke="#64748b" stroke-width="1.3" marker-end="url(#a0)"/>
+<rect x="514" y="156" width="224" height="53" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="626.0" y="180" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">Decode 瓶颈</text>
+<text x="626.0" y="200" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">TPOT 升高</text>
+<text x="626" y="228" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#52657c" text-anchor="middle" font-weight="400">D 请求积压</text>
+<line x1="626" y1="236" x2="626" y2="256" stroke="#64748b" stroke-width="1.4" marker-end="url(#a0)"/>
+<rect x="514" y="260" width="224" height="56" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="626.0" y="284" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">提高 D 处理能力</text>
+<text x="626.0" y="304" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">优化 Batch 与缓存</text>
+</svg>

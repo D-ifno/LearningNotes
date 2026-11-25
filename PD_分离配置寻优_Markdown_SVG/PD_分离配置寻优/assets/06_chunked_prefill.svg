@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="245" viewBox="0 0 760 245" role="img" aria-label="Chunked Prefill 分块调度">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">Chunked Prefill 分块调度</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">单请求、无缓存命中；max-num-batched-tokens = 8192</text>
+<rect x="36" y="80" width="164" height="38" rx="4" fill="#93b4f7" stroke="none" stroke-width="1"/>
+<text x="118" y="104" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="600">8192 Tokens</text>
+<line x1="118" y1="122" x2="118" y2="150" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="36" y="155" width="164" height="54" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="118.0" y="179" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Step 1</text>
+<text x="118.0" y="199" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">8192 Tokens</text>
+<rect x="210" y="80" width="164" height="38" rx="4" fill="#6a99f2" stroke="none" stroke-width="1"/>
+<text x="292" y="104" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="600">8192 Tokens</text>
+<line x1="292" y1="122" x2="292" y2="150" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="210" y="155" width="164" height="54" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="292.0" y="179" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Step 2</text>
+<text x="292.0" y="199" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">8192 Tokens</text>
+<rect x="384" y="80" width="164" height="38" rx="4" fill="#4279e6" stroke="none" stroke-width="1"/>
+<text x="466" y="104" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="600">8192 Tokens</text>
+<line x1="466" y1="122" x2="466" y2="150" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="384" y="155" width="164" height="54" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="466.0" y="179" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Step 3</text>
+<text x="466.0" y="199" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">8192 Tokens</text>
+<rect x="558" y="80" width="164" height="38" rx="4" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="640" y="104" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="600">8192 Tokens</text>
+<line x1="640" y1="122" x2="640" y2="150" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<rect x="558" y="155" width="164" height="54" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="640.0" y="179" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Step 4</text>
+<text x="640.0" y="199" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">8192 Tokens</text>
+<text x="380" y="232" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="13" fill="#52657c" text-anchor="middle" font-weight="400">输入长度 32768 Tokens，按 Token Budget 分块处理</text>
+</svg>

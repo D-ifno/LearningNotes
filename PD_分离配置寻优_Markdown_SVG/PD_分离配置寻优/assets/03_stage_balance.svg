@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="345" viewBox="0 0 760 345" role="img" aria-label="P / D 处理能力与系统瓶颈">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#0d9488"/></marker><marker id="a3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#d97706"/></marker><marker id="a4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="100%" height="100%" rx="14" fill="#ffffff"/>
+<text x="24" y="32" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="21" fill="#172b4d" text-anchor="start" font-weight="600">P / D 处理能力与系统瓶颈</text>
+<text x="24" y="54" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="start" font-weight="400">忽略 KV 传输及排队开销时的简化模型；单位：req/s</text>
+<text x="24" y="93" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#172b4d" text-anchor="start" font-weight="600">Prefill 是瓶颈</text>
+<rect x="194" y="76" width="180" height="57" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="284.0" y="100" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Prefill</text>
+<text x="284.0" y="120" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">10 req/s</text>
+<rect x="410" y="76" width="180" height="57" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="500.0" y="100" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">Decode</text>
+<text x="500.0" y="120" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">20 req/s</text>
+<line x1="374" y1="104" x2="407" y2="104" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<line x1="590" y1="104" x2="624" y2="104" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<text x="680" y="95" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">整体上限</text>
+<text x="680" y="119" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="22" fill="#d97706" text-anchor="middle" font-weight="600">10</text>
+<text x="24" y="178" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#172b4d" text-anchor="start" font-weight="600">Decode 是瓶颈</text>
+<rect x="194" y="161" width="180" height="57" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="284.0" y="185" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Prefill</text>
+<text x="284.0" y="205" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">20 req/s</text>
+<rect x="410" y="161" width="180" height="57" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="500.0" y="185" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">Decode</text>
+<text x="500.0" y="205" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">10 req/s</text>
+<line x1="374" y1="189" x2="407" y2="189" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<line x1="590" y1="189" x2="624" y2="189" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<text x="680" y="180" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">整体上限</text>
+<text x="680" y="204" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="22" fill="#d97706" text-anchor="middle" font-weight="600">10</text>
+<text x="24" y="263" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="14" fill="#172b4d" text-anchor="start" font-weight="600">两侧处理能力匹配</text>
+<rect x="194" y="246" width="180" height="57" rx="8" fill="#f8fafc" stroke="#2563eb" stroke-width="1.2"/>
+<text x="284.0" y="270" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="600">Prefill</text>
+<text x="284.0" y="290" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">15 req/s</text>
+<rect x="410" y="246" width="180" height="57" rx="8" fill="#f8fafc" stroke="#0d9488" stroke-width="1.2"/>
+<text x="500.0" y="270" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle" font-weight="600">Decode</text>
+<text x="500.0" y="290" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">15 req/s</text>
+<line x1="374" y1="274" x2="407" y2="274" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<line x1="590" y1="274" x2="624" y2="274" stroke="#64748b" stroke-width="1.5" marker-end="url(#a0)"/>
+<text x="680" y="265" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="12" fill="#52657c" text-anchor="middle" font-weight="400">整体上限</text>
+<text x="680" y="289" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif" font-size="22" fill="#15803d" text-anchor="middle" font-weight="600">15</text>
+</svg>
